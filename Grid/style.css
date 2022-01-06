@@ -1,12 +1,21 @@
 .grid-container {
   margin: 10px;
   background-color: lightgray;
-  /* height: 300px; */
+  height: 500px;
   display: grid;
   /* grid-template-columns: 50px 50px 20px 10px 5px; */
   /* grid-template-rows: 20px 200px ; */
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto;
+  /* justify-content: end; */
+  /* justify-content: center; */
+  /* justify-content: start; */
+  justify-content: space-around;
+  /* justify-content: space-between; */
+
+  /* align-content: space-around; */
+  /* align-content: space-between; */
+  align-content: start;
 }
 
 .grid-item {
