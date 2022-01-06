@@ -16,6 +16,10 @@
   /* align-content: space-around; */
   /* align-content: space-between; */
   align-content: start;
+
+  /* grid-row-gap: 30px; */
+  /* grid-column-gap: 400px;        {unresponsive} */
+  /* column-gap: 60px; */
 }
 
 .grid-item {
