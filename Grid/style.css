@@ -37,6 +37,9 @@
   0% {
     background-color: chocolate;
   }
+  50% {
+    background-color: rgb(233, 122, 122);
+  }
   100% {
     background-color: cyan;
   }
@@ -46,4 +49,5 @@
   animation-name: animation-color;
   animation-duration: 5s;
   background-color: darkgreen;
+  animation-iteration-count: infinite;
 }
