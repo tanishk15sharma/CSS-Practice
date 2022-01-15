@@ -2,11 +2,26 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 .top-container {
   background: #23424a;
   color: white;
-  padding: 4em 3em;
+  padding: 4em 3.5em;
   width: 90%;
   margin: 0 auto;
+}
+.info {
+  width: 45%;
+}
+
+.info button {
+  border-radius: 100px;
+  border: transparent;
+  padding: 1em 2em;
+  margin: 20px 0;
+  background: #38cfd9;
+  font-weight: 750;
+  text-transform: uppercase;
+  color: #23424a;
 }
