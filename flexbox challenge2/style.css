@@ -4,15 +4,29 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.top-container {
+img {
+  max-width: 100%;
+}
+
+.container-bg {
   background: #23424a;
   color: white;
+}
+
+.top-container {
   padding: 4em 3.5em;
   width: 90%;
   margin: 0 auto;
+  border: 2px solid black;
 }
+
 .info {
-  width: 45%;
+  width: 55%;
+  /* background-color: brown; */
+}
+.hero-img {
+  align-self: flex-start;
+  width: 30%;
 }
 
 .info p {
@@ -28,4 +42,39 @@
   font-weight: 750;
   text-transform: uppercase;
   color: #23424a;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  margin-top: 0;
+}
+
+.content-text h2 {
+  color: hsl(184, 71%, 26%);
+}
+
+.content-text {
+  width: 70%;
+}
+
+.col {
+  background: #136c72;
+  color: white;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 30%;
+  /* padding: 1em 1em; */
+}
+.col-text {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
 }
