@@ -15,11 +15,15 @@
   width: 45%;
 }
 
+.info p {
+  margin-bottom: 3em;
+}
+
 .info button {
   border-radius: 100px;
   border: transparent;
   padding: 1em 2em;
-  margin: 20px 0;
+  /* margin: 20px 0; */
   background: #38cfd9;
   font-weight: 750;
   text-transform: uppercase;
