@@ -1,4 +1,3 @@
-*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -22,7 +21,6 @@ img {
 
 .info {
   width: 55%;
-  /* background-color: brown; */
 }
 .hero-img {
   align-self: flex-start;
@@ -57,7 +55,8 @@ h1 {
 }
 
 .content-text {
-  width: 70%;
+  width: 60%;
+  /* align-self: flex-start; */
 }
 
 .col {
@@ -77,4 +76,55 @@ h1 {
 .content {
   display: flex;
   justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+  width: 50%;
+
+  margin: auto;
+}
+
+input {
+  border-radius: 50px;
+  padding: 0.5em;
+  flex-grow: 1;
+  border: transparent;
+}
+button {
+  border: transparent;
+
+  border-radius: 50px;
+  padding: 0.5em;
+  background: rgb(14, 115, 179);
+  color: white;
+  /* flex-basis: 80px; */
+}
+
+header {
+  background: #23424a;
+  /* width: 95%; */
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  color: white;
+  padding: 15px;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+li:last-child {
+  background-color: white;
+  color: #23424a;
+  padding: 1px 5px;
+
+  border-radius: 30px;
 }
