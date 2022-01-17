@@ -14,7 +14,7 @@ header {
   text-transform: uppercase;
   font-family: monospace;
 }
-h1 {
+.heading {
   max-width: 25rem;
   text-align: center;
   margin-top: 0;
@@ -28,13 +28,50 @@ h1 {
   color: #824936;
   font-weight: 900;
 }
-.section-text {
+.div-text {
   display: flex;
   justify-content: center;
   font-family: sans-serif;
+  gap: 20px;
 }
 
 .div-p {
   flex-basis: 40%;
   border: 2px solid red;
+  line-height: 1.6;
+}
+.section-1 {
+  display: flex;
+  border: 2px solid green;
+  justify-content: center;
+  padding: 50px;
+  gap: 30px;
+  color: white;
+  background: #222c2a;
+}
+
+.text-1 {
+  flex-basis: 40%;
+}
+.img-1 {
+  flex-basis: 40%;
+}
+img {
+  max-width: 100%;
+}
+
+.section-2 {
+  border: 2px solid yellowgreen;
+  display: flex;
+  padding: 50px;
+  gap: 30px;
+  justify-content: center;
+  background: #824936;
+  color: white;
+}
+.text-2 {
+  flex-basis: 40%;
+}
+.img-2 {
+  flex-basis: 40%;
 }
