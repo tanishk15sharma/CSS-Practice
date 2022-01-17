@@ -85,7 +85,6 @@ h1 {
 
   gap: 10px;
   width: 50%;
-
   margin: auto;
 }
 
@@ -127,4 +126,24 @@ li:last-child {
   padding: 1px 5px;
 
   border-radius: 30px;
+}
+
+@media (max-width: 600px) {
+  .row,
+  .content {
+    display: block;
+  }
+
+  .info,
+  .hero-img,
+  .content-text,
+  .col,
+  header,
+  .nav-list {
+    width: 100%;
+  }
+
+  .hero-img {
+    margin-top: 1em;
+  }
 }
