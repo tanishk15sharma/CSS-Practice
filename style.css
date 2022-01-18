@@ -141,4 +141,22 @@ h4 {
     max-width: 19em;
     margin: auto;
   }
+
+  .bottom-div {
+    border: 2px solid palevioletred;
+    padding: 3em;
+    display: flex;
+    gap: 20px;
+  }
+  .aside-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-section {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  h4 {
+    margin-top: 0;
+  }
 }
