@@ -108,7 +108,7 @@ h4 {
     gap: 50px;
   }
   .title {
-    flex-basis: 40%;
+    /* flex-basis: 40%; */
     font-size: 2rem;
     /* width: 50%; */
     margin: auto;
@@ -125,6 +125,7 @@ h4 {
     /* max-width: 50%; */
     margin-right: auto;
     font-size: 1.4rem;
+    min-width: 9em;
   }
   .btn {
     margin-right: auto;
