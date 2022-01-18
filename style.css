@@ -97,9 +97,6 @@ h4 {
 }
 
 @media (min-width: 1000px) {
-  body {
-    background-color: green;
-  }
   header {
     padding: 7em 15em;
     display: flex;
@@ -133,5 +130,15 @@ h4 {
   }
   h1 {
     margin-bottom: 0;
+  }
+  .title-main {
+    display: flex;
+    gap: 10px;
+    padding: 5em;
+    line-height: 1.5;
+  }
+  .row {
+    max-width: 19em;
+    margin: auto;
   }
 }
