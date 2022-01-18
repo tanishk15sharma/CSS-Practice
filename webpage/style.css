@@ -1,6 +1,11 @@
 body {
   font-family: sans-serif;
 }
+
+img {
+  max-width: 100%;
+}
+
 span {
   color: #a59678;
 }
@@ -8,17 +13,33 @@ header {
   background: #3b4050;
   color: white;
   padding: 2em;
-  text-align: center;
+  border: 2px solid goldenrod;
 }
 .btn {
   padding: 0.5em 1em;
   border-radius: 100px;
   border: transparent;
-  background: #a59678;
+  background: #998b70;
   color: white;
   font-weight: 900;
 }
 .title {
   /* border: 2px solid red; */
-  text-align: left;
+  line-height: 1;
+}
+.title-main {
+  border: 2px solid red;
+  padding: 2em;
+  background: rgb(228, 224, 224);
+  text-align: center;
+}
+.main-title {
+  color: #796c51;
+}
+section {
+  padding: 2em;
+  border: 2px solid green;
+}
+h4 {
+  color: #72674e;
 }
