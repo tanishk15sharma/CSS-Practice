@@ -17,7 +17,7 @@ header {
   background: #3b4050;
   color: white;
   padding: 2em;
-  border: 2px solid goldenrod;
+  /* border: 2px solid goldenrod; */
 }
 .btn {
   padding: 0.5em 1em;
@@ -32,7 +32,7 @@ header {
   line-height: 1;
 }
 .title-main {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
   padding: 2em;
   /* width: 90%;by this way you can also you can center the things */
@@ -82,7 +82,7 @@ h4 {
     margin-top: 16px;
   }
   img {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 100%;
   }
 
@@ -143,7 +143,7 @@ h4 {
   }
 
   .bottom-div {
-    border: 2px solid palevioletred;
+    /* border: 2px solid palevioletred; */
     padding: 3em;
     display: flex;
     gap: 20px;
@@ -160,3 +160,25 @@ h4 {
     margin-top: 0;
   }
 }
+
+/* 
+.title-text {
+  border: 2px solid pink;
+}
+h1 {
+  border: 3px solid orange;
+}
+
+.row {
+  border: 2px solid yellowgreen;
+}
+h4 {
+  border: 2px solid pink;
+}
+p {
+  border: 2px solid red;
+}
+
+h2 {
+  border: 2px solid yellow;
+} */
