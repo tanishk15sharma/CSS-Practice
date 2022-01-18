@@ -33,7 +33,12 @@ header {
 }
 .title-main {
   border: 2px solid red;
+
   padding: 2em;
+  /* width: 90%;by this way you can also you can center the things */
+  /* max-width: 1200px; */
+
+  margin: 0 auto;
   background: rgb(238, 238, 238);
   text-align: center;
 }
@@ -58,4 +63,35 @@ h4 {
   color: white;
   text-align: center;
   padding: 1em;
+}
+@media (min-width: 700px) {
+  header {
+    display: flex;
+    gap: 8px;
+  }
+  .title-text {
+    /* align-content: flex-end; */
+    /* border: 2px solid green; */
+    /* align-items: flex-end; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1 {
+    margin-top: 16px;
+  }
+  img {
+    border: 2px solid green;
+    width: 100%;
+  }
+
+  .aside-div {
+    display: flex;
+    gap: 10px;
+  }
+  h4 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
 }
