@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+span {
+  color: #a59678;
+}
+header {
+  background: #3b4050;
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+.btn {
+  padding: 0.5em 1em;
+  border-radius: 100px;
+  border: transparent;
+  background: #a59678;
+  color: white;
+  font-weight: 900;
+}
+.title {
+  /* border: 2px solid red; */
+  text-align: left;
+}
